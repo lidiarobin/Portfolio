@@ -1,1 +1,9 @@
+In order for this to work, the following commands must be ran in terminal:
+- rmiregistry
+- java RestKit: we run this so that the web browser is functional
+- java NodeSupervisor: this class handles the nodes, what they do, and acts as an
+intermediary between the REST server and the DHT server
+- java ChordNode [word]: the word can be replaced with any word (i.e. key, letters, etc),
+and it will automatically start a new node and create a key for it
 
+More information in the 401 PDF
